@@ -1,13 +1,25 @@
-name: brvehins_h2O_en
-channels:
+name: brvehins_h2O_env
+channels: 
   - conda-forge
-  - defaults
-dependencies:
-  - python=3.10
-  - pip
-  - jupyter
-  - pandas
+  dependencies: 
+  - python = 3.11
   - numpy
+  - pandas
+  - pyarrow
+  - polars
+  - matplotlib
+  - seaborn
+  - scipy
   - scikit-learn
-  - pip:
-    - h2o
+  - notebook
+  - jupyterlab
+  - pathlib
+  - pip
+  - os
+  - openjdk
+  - ipykernel
+  - pip: 
+      - future
+      - tabulate
+      - requests
+      - h2o
