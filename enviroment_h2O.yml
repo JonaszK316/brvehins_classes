@@ -1,0 +1,13 @@
+name: brvehins_h2O_en
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - pandas
+  - numpy
+  - scikit-learn
+  - pip:
+    - h2o
